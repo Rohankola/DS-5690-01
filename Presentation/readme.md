@@ -55,11 +55,10 @@ The architecture of DoRA stems from two key innovations:
 The authors introduce a novel analysis that decomposes weight matrices into magnitude and directional components to study how LoRA and full fine-tuning differ in their learning patterns.
 It is inspired by Weight Normalization, which reparameterizes neural network weights to improve optimization. 
 
-For any weight matrix W ∈ ℝᵈˣᵏ:
-z
-$$
+For any weight matrix W ∈ ℝᵈˣᵏ:z
+
 W = m * (V/||V||c)
-$$
+
 where:
 - m ∈ ℝ¹ˣᵏ is the magnitude vector
 - V ∈ ℝᵈˣᵏ is the directional matrix
