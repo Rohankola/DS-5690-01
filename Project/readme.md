@@ -20,7 +20,7 @@ The project reveals several important insights about the relationship between fi
 
 1. Text Dominance in Predictions
 - News content accounts for 81% of the model's predictive power
-- This strongly suggests that qualitative information in news articles has significantly more influence on stock movements than technical indicators
+- This strongly suggests that qualitative information in news articles has significant impact
 ![Feature Importance](images/Feature_importance.png)
 
 2. Model Performance Challenges
